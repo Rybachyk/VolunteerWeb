@@ -1,0 +1,57 @@
+﻿@model VolunteerWeb.Controllers.AskingHelpViewModel
+
+@{
+    ViewData["Title"] = "Asking Help Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Люди, які потребують допомоги</h1>
+    <section>
+        <h2>Таблиця</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Ім'я</th>
+                    <th>Прізвище</th>
+                    <th>Номер телефону</th>
+                    <th>Опис проблеми</th>
+                    <th>Дія</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Users.Any())
+                {
+                    @foreach (var user in Model.Users)
+                    {
+                        <tr>
+                            <td>@user.FirstName</td>
+                            <td>@user.LastName</td>
+                            <td>@user.Phone</td>
+                            <td>
+                                @foreach (var helpRequest in Model.HelpRequests)
+                                {
+                                    if (helpRequest.UserId == user.Id)
+                                    {
+                                        <text>@helpRequest.ProblemDescription<br /></text>
+                                    }
+                                }
+                            </td>
+                            <td>
+                                <form method="post" action="/AskingHelp/DeleteUser">
+                                    <input type="hidden" name="userId" value="@user.Id" />
+                                    <button type="submit">Видалити</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+
+                }
+                else
+                {
+                    <p>Немає запитів на допомогу</p>
+                }
+
+            </tbody>
+        </table>
+    </section>
+</div>

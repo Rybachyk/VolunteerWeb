@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\VolunteerWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|c:\\c#\\volunteerweb\\volunteerweb\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|solutionrelative:volunteerweb\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|c:\\c#\\volunteerweb\\volunteerweb\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|solutionrelative:volunteerweb\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|c:\\c#\\volunteerweb\\volunteerweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|solutionrelative:volunteerweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|c:\\c#\\volunteerweb\\volunteerweb\\views\\home\\support.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|solutionrelative:volunteerweb\\views\\home\\support.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|c:\\c#\\volunteerweb\\volunteerweb\\views\\home\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|solutionrelative:volunteerweb\\views\\home\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|c:\\c#\\volunteerweb\\volunteerweb\\views\\home\\help.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|solutionrelative:volunteerweb\\views\\home\\help.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|c:\\c#\\volunteerweb\\volunteerweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|solutionrelative:volunteerweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|c:\\c#\\volunteerweb\\volunteerweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|solutionrelative:volunteerweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|c:\\c#\\volunteerweb\\volunteerweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|solutionrelative:volunteerweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|c:\\c#\\volunteerweb\\volunteerweb\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C677CC4-CE12-492E-9317-534885E49038}|VolunteerWeb\\VolunteerWeb.csproj|solutionrelative:volunteerweb\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "VolunteerWeb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "VolunteerWeb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T20:48:28.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "VolunteerWeb\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "VolunteerWeb\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T20:59:59.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "VolunteerWeb\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "VolunteerWeb\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T20:59:33.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Support.cshtml",
+              "DocumentMoniker": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\Home\\Support.cshtml",
+              "RelativeDocumentMoniker": "VolunteerWeb\\Views\\Home\\Support.cshtml",
+              "ToolTip": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\Home\\Support.cshtml",
+              "RelativeToolTip": "VolunteerWeb\\Views\\Home\\Support.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T21:00:57.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "News.cshtml",
+              "DocumentMoniker": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\Home\\News.cshtml",
+              "RelativeDocumentMoniker": "VolunteerWeb\\Views\\Home\\News.cshtml",
+              "ToolTip": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\Home\\News.cshtml",
+              "RelativeToolTip": "VolunteerWeb\\Views\\Home\\News.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T21:00:39.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Help.cshtml",
+              "DocumentMoniker": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\Home\\Help.cshtml",
+              "RelativeDocumentMoniker": "VolunteerWeb\\Views\\Home\\Help.cshtml",
+              "ToolTip": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\Home\\Help.cshtml",
+              "RelativeToolTip": "VolunteerWeb\\Views\\Home\\Help.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T21:00:21.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "VolunteerWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "VolunteerWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwDAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T20:49:11.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "VolunteerWeb\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "VolunteerWeb\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T20:57:19.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "VolunteerWeb\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "VolunteerWeb\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T20:48:33.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "VolunteerWeb\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\C#\\VolunteerWeb\\VolunteerWeb\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "VolunteerWeb\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T20:32:47.469Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

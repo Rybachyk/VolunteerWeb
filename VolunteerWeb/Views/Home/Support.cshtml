@@ -1,0 +1,62 @@
+﻿@model List<VolunteerWeb.Models.DataBaseModels.Donation>
+
+@{
+    ViewData["Title"] = "Support Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Підтримка волонтерів</h1>
+    <section>
+        <h2>Проекти та можливості для волонтерства</h2>
+        <!-- Додайте список проектів та можливостей для волонтерства -->
+    </section>
+
+    <section>
+        <h2>Підтримати волонтерські ініціативи</h2>
+
+        @if (Model != null && Model.Any())
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Заголовок</th>
+                        <th>Посилання</th>
+                        <th>Дія</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var donation in Model)
+                    {
+                        <tr>
+                            <td>@donation.Title</td>
+                            <td><a href="@donation.Url">@donation.Url</a></td>
+                            <td>
+                                <form method="post" action="/Support/DeleteDonation">
+                                    <input type="hidden" name="id" value="@donation.Id" />
+                                    <button type="submit" class="btn btn-danger">Видалити</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>Немає доступних донатів.</p>
+        }
+
+        <h3>Додати новий донат:</h3>
+        <form method="post" action="/Support/AddDonation">
+            <div class="form-group">
+                <label for="title">Заголовок:</label>
+                <input type="text" class="form-control" id="title" name="Title" required>
+            </div>
+            <div class="form-group">
+                <label for="url">Посилання:</label>
+                <input type="text" class="form-control" id="url" name="Url" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Додати</button>
+        </form>
+    </section>
+</div>

@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Help Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Подати заявку на допомогу</h1>
+    <section>
+        <h2>Заповніть форму заявки</h2>
+        <form action="/Help/SubmitHelpRequest" method="post">
+            <label for="name">Ім'я:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="surname">Прізвище:</label><br>
+            <input type="text" id="surname" name="surname" required><br>
+
+            <label for="phone">Номер телефону:</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+            <small>Формат: 123-456-7890</small><br>
+
+            <label for="problem_description">Опис проблеми:</label><br>
+            <textarea id="problem_description" name="problem_description" rows="4" required></textarea><br>
+
+            <input type="submit" value="Подати заявку">
+        </form>
+    </section>
+</div>
