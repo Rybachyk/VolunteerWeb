@@ -1,0 +1,116 @@
+﻿body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #362E23;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    position: relative;
+    height: 90vh; /* Full viewport height */
+    width: 120vw; /* Full viewport width */
+    overflow: hidden;
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    left: -20%;
+    background-color: rgba(255, 192, 203, 0.5); /* Pink color with 50% opacity */
+}
+
+.hero-image {
+    background-color: rgba(255, 192, 203, 0.5); /* Pink color with 50% opacity */
+
+    background-image: url('/css/Image/rectangle_3.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100%; /* Full height of the .hero section */
+    width: 96%; /* Resize the width to 80% of the original size */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero-text {
+    position: absolute;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(137, 122, 103,0.6); /* Pink color with 50% opacity */
+    text-align: center;
+    height: 100%; /* Full height of the .hero section */
+    width: 96%;
+}
+
+    .hero-text h1 {
+        position: relative; /* Set position to relative */
+        top: 40px;
+        font-family: Abril Fatface;
+        font-size: 44px;
+        color: #3A3C26;
+        text-align: center;
+        left: -20%;
+        color: #E8E1DB;
+        top: 30%;
+    }
+
+    .hero-text p {
+        font-size: 0.2em;
+        position: relative; /* Set position to relative */
+        top: 140px;
+        text-align: center;
+        left: -20%;
+        top:44%;
+        font-family: Times New Roman;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 17.25px;
+        letter-spacing: 0.08em;
+        color: #f5f5f5;
+    }
+
+.about {
+    background: #E8E1DB;
+    padding: 150px;
+    width: 120vw; 
+    position: relative;
+    left: -20%; 
+    box-sizing: border-box; 
+    flex-grow: 1; 
+    display: flex; /* Use flexbox */
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
+}
+    .about h1 {
+        position: relative; /* Set position to relative */
+        left: -150px; /* Adjust left positioning to move it more to the left */
+        top: -90px;
+        font-family: Abril Fatface;
+        font-size: 40px;
+        color: #3A3C26;
+        text-align: center;
+
+    }
+
+
+.poem {
+    font-size: 1.5em; /* Adjust font size */
+    line-height: 1.5; /* Adjust line height */
+    text-align: match-parent; /* Align text to the left */
+}
+
+    .poem p {
+        font-family: Times New Roman;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 43.2px;
+        text-align: left;
+        margin: 0; /* Remove default margin */
+        left: 70px; /* Adjust left positioning to move it more to the left */
+    }

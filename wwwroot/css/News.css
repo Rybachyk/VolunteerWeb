@@ -1,0 +1,82 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E8E1DB;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: #E8E1DB;
+}
+
+.news-content {
+    /*overflow: hidden;*/ /* Hides any content that overflows its container */
+    /*text-overflow: ellipsis;*/ /* Truncates text with an ellipsis (...) if it overflows */
+    /*white-space: nowrap;*/ /* Prevents wrapping of long text */
+
+    word-wrap: break-word;
+}
+
+
+
+main {
+    background-color: #E8E1DB;
+    padding: 20px 0;
+}
+
+    main h1 {
+        text-align: center;
+        color: #333;
+    }
+
+.news-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: auto;
+}
+
+.news-item {
+    display: flex;
+}
+
+    .news-item img {
+        width: 150px;
+        height: auto;
+        max-height: 150px;
+        margin-right: 20px;
+    }
+
+.news-content {
+    flex: 1;
+}
+
+.news-title-link {
+    text-decoration: none; /* Remove underline from anchor */
+    color: inherit; /* Inherit text color from parent */
+}
+
+.news-content a:hover {
+    text-decoration: none; /* Remove underline on hover */
+    color: inherit; /* Inherit text color from parent on hover */
+}
+
+
+    .news-content h2 {
+        font-size: 25px;
+        color: #a0a034;
+        text-align: justify;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .news-content p {
+        text-align: justify;
+        font-family: Arial, sans-serif;
+    }
+
+

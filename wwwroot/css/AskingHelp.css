@@ -1,0 +1,42 @@
+﻿h1 {
+    color: #362E23;
+    font-family: 'Arial', sans-serif;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+    .table th,
+    .table td {
+        padding: 8px;
+        border-bottom: 1px solid #3A2F2F;
+        text-align: center;
+    }
+
+    .table th {
+        background-color: #362E23;
+        color: #fff;
+    }
+
+    .table td {
+        color: #000;
+    }
+
+    .table .btn-danger {
+        background-color: #D4E157;
+        color: #fff;
+        border: none;
+        padding: 6px 12px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        outline: none;
+    }
+
+        .table .btn-danger:hover {
+            background-color: #E8E1DB;
+            color: #3A2F2F;
+        }

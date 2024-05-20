@@ -1,0 +1,31 @@
+﻿@model VolunteerWeb.Models.DataBaseModels.News
+
+@{
+    ViewData["Title"] = "News Details";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - VolunteerWeb</title>
+    <link rel="stylesheet" href="~/css/detailsnews.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="news-details-container">
+        <div class="news-header">
+            <h1>@Model.Title</h1>
+        </div>
+        <div class="news-image-container">
+            <img src="@Model.PhotoPath" alt="News Image" class="news-image" />
+        </div>
+        <div class="news-content">
+            <p>@Model.Content</p>
+        </div>
+        <div class="news-footer">
+            <a href="@Url.Action("News", "Home")" class="back-button">Назад до списку</a>
+        </div>
+    </div>
+</body>
+</html>

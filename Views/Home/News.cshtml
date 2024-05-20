@@ -1,0 +1,74 @@
+﻿@model List<VolunteerWeb.Models.DataBaseModels.News>
+
+@{
+    ViewData["Title"] = "News Page";
+    <link rel="stylesheet" href="~/css/News.css" asp-append-version="true" />
+}
+
+<div class="text-center">
+    <main>
+        <div class="container">
+            <h1>Новини</h1>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var newsItem in Model)
+                {
+                    <div class="news-box">
+                       
+                        <section class="news-item">
+                            <img src="@newsItem.PhotoPath" alt="News Image" class="news-image">
+                            <div class="news-content">
+                                @* <h2>@newsItem.Title</h2> *@
+                                <h2>
+                                    <a href="/News/DetailsNews/@newsItem.Id" class="news-title-link">
+                                        <span class="news-title">@newsItem.Title</span>
+                                    </a>
+                                </h2>
+                                <p>@newsItem.Content</p>
+                                @if (User.IsInRole("Admin"))
+                                {
+                                    <div class="row">
+                                        <div class="col">
+                                            <form method="post" action="/News/DeleteNews">
+                                                <input type="hidden" name="id" value="@newsItem.Id" />
+                                                <button type="submit" class="btn btn-danger">Видалити</button>
+                                            </form>
+                                        </div>
+                                        <div class="col">
+                                            <a href="/News/EditNews/@newsItem.Id" class="btn btn-primary">Редагувати</a>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </section>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>Новини відсутні</p>
+            }
+        </div>
+    </main>
+    @if (User.IsInRole("Admin"))
+    {
+        <section class="add-news-section">
+            <h2>Додати нову новину</h2>
+            <form method="post" action="/News/AddNews">
+                <div class="form-group">
+                    <label for="title">Заголовок:</label>
+                    <input type="text" class="form-control" id="title" name="Title" required>
+                </div>
+                <div class="form-group">
+                    <label for="content">Зміст:</label>
+                    <textarea class="form-control" id="content" name="Content" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="photoPath">Фото шлях:</label>
+                    <input type="text" class="form-control" id="photoPath" name="PhotoPath" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Додати</button>
+            </form>
+        </section>
+    }
+</div>

@@ -1,0 +1,95 @@
+﻿section {
+    border: 8px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 1200px;
+    color: #362E23;
+    background: #E8E1DB;
+}
+
+.text-center {
+    color: #362E23;
+}
+
+body {
+    background: #362E23;
+}
+
+.custom-form {
+    max-width: 600px; /* Increased max-width for larger input fields */
+    margin: 0 auto;
+}
+
+    .custom-form .form-group {
+        margin-bottom: 50px;
+    }
+
+    .custom-form label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+h2 {
+    position: relative; /* Set position to relative */
+
+    font-family: Abril Fatface;
+    font-size: 70px;
+    color: #3A3C26;
+    text-align: center;
+}
+
+
+/* Збільште розмір віджетів вводу */
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 600px; /* Збільште ширину віджетів для текстових полів */
+    height: 55px; /* Збільште висоту віджетів для текстових полів */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 0px; /* Зменшити відстань між інпутами */
+}
+
+
+/* Збільште висоту віджету textarea */
+textarea {
+    height: 120px;
+}
+
+.custom-form textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    margin-top: 40px; /* Опустити кнопку нижче */
+    background-color: #D4E157;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    top: -120px;
+}
+
+.custom-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+label {
+    display: block;
+    font-size: 20px; /* Розмір шрифту */
+    color: #333; /* Колір тексту */
+    font-family: Josefin Slab;
+    text-align: left;
+    margin-left: 272px; /* Посунути лейбли вправо на 20px */
+    margin-top: 40px; /* Опустити лейбли нижче на 10px */
+}
+
+small {
+    display: block; /* Зробити елемент блоковим для можливості встановлення margin */
+    font-size: 16px; /* Збільшити розмір шрифту */
+    margin-top: 18px; /* Опустити текст нижче */
+}

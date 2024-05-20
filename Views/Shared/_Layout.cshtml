@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Благодійний фонд Волонтери Болехівщини</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/VolunteerWeb.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/_Layout.css" asp-append-version="true" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="containerh">
+            <div class="logo">
+                <img src="~/css/Image/head_removebg_preview_1.png" alt="Логотип">
+            </div>
+            <div class="title">
+                Благодійна організація<br>
+                "Благодійний фонд Волонтери Болехівщини"
+            </div>
+            <nav class="menu">
+                <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index">Головна</a>
+                <a class="nav-link" href="@Url.Action("Index", "Home")#about-section">Про нас</a>
+                <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Help">Форма</a>
+                <a class="nav-link " asp-area="" asp-controller="Home" asp-action="News">Новини</a>
+                @if (User.IsInRole("Admin"))
+                {
+                    <a class="nav-link " asp-area="" asp-controller="Home" asp-action="AskingHelp">Допомога</a>
+                }
+                <partial name="_LoginPartial" style="color: white; text-decoration: none; font-weight: bold; text-transform: uppercase;"></partial>
+            </nav>
+            <div class="donate-button">
+                <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Support">Донат</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="footer-left">
+                <div class="footer-item">
+                    <span class="footer-icon">&#x1F4CD;</span> <!-- Location icon -->
+                    <span class="footer-text">Україна, Івано-Франківська область, м. Болехів</span>
+                </div>
+                <div class="footer-item">
+                    <span class="footer-icon">&#x260E;</span> <!-- Phone icon -->
+                    <span class="footer-text">+380 66 77 89 990</span>
+                </div>
+                <div class="footer-item">
+                    <span class="footer-icon">&#x2709;</span> <!-- Email icon -->
+                    <span class="footer-text">Volonteer@gmail.com</span>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-contact">
+                    <span class="footer-contact-title">Зв’язок з нами:</span>
+                    <a href="https://www.facebook.com/profile.php?id=100011317188404&locale=uk_UA" class="footer-social-link">
+                        <img src="~/css/Image/Facebook-Grey-icon.png" alt="Facebook">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

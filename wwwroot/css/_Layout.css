@@ -1,0 +1,144 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    background-color: #E8E1DB;
+}
+
+.container {
+    flex: 1;
+}
+.header {
+    background-color: #362E23;
+    padding: 10px 20px;
+    height:90px;
+}
+
+.containerh {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.logo img {
+    height: 50px;
+    /* margin-right: - 50px;*/
+}
+
+.title {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    flex: 1;
+    margin-right: 20px; /* Adds some space between title and menu */
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+    margin-right: 20px; /* Adds some space between menu items and the donate button */
+}
+
+.menu a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.donate-button a {
+    background-color: #D4E157;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: rgb(245, 218, 182); /* Змінити колір тексту при наведенні */
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        margin-top: 10px;
+    }
+
+    .title {
+        text-align: left;
+        margin: 10px 0;
+    }
+}
+
+.footer_container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #3A2F2F;
+    color: #F4F3EE;
+    padding: 20px 0;
+}
+
+
+.footer-left, .footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.footer-text {
+    font-size: 16px;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact-title {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.footer-social-link img {
+    width: 24px;
+    height: 24px;
+}
+

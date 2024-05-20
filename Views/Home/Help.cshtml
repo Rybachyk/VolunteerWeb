@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Help Page";
+        <link rel="stylesheet" href="~/css/Help.css" asp-append-version="true" />
+
+}
+<body>
+<div class="text-center">
+    <section>
+        <h2>Зв'яжіться з нами</h2>
+        <form action="/Help/SubmitHelpRequest" method="post">
+            <label for="name">Ім'я:</label><br>
+            <input type="text" id="name" name="name"  required><br>
+
+            <label for="surname">Прізвище:</label><br>
+            <input type="text" id="surname" name="surname" required><br>
+
+            <label for="phone">Номер телефону:</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+            <small>Формат: 0??-???-????</small><br>
+            <label for="problem_description" style="margin-top: -10px;">Допомога:</label><br>
+            <textarea id="problem_description" name="problem_description" rows="4" style="margin-top: -10px;" required></textarea><br>
+    
+
+            <input type="submit" value="Відправити">
+        </form>
+    </section>
+</div>
+</body>
